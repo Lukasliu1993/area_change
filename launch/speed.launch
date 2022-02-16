@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="speed_area" type="speed_area" name="speed_area" output="screen"> 
+      <param name="filename" value="clean_mode_map" type="string" />
+    </node>
+</launch>
